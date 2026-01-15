@@ -1,0 +1,11 @@
+# ignore node modules
+node_modules/
+*/node_modules/
+
+# ignore log files
+*.sqlite
+*.sqlite-journal
+
+# ignore environment files
+.env
+.DS_Store
