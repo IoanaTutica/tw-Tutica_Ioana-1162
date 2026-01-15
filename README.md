@@ -3,6 +3,27 @@
 Student: Tutica Ioana
 Grupa: 1162
 
+## Descrierea proiectului
+Aceasta este o aplicatie web de tip SPA care permite utilizatorilor sa gestioneze o colectie de citate personale. Ideea principala este ca fiecare utilizator sa aiba propriul cont securizat unde isi poate salva citatele preferate si le poate traduce automat folosind un API extern.
+
+## Specificatii tehnice
+Am implementat cerintele temei astfel:
+
+  1. **Persistenta datelor:**
+    - Folosesc o baza de date SQLite cu doua entitati: Users si Quotes.
+    - Relatia este de tip one-to-many (un utilizator poate avea mai multe citate).
+
+  2. **Backend RESTful:**
+    - Implementat in Node.js cu Express.
+    - Ofera endpoint-uri CRUD.
+
+  3. **Frontend SPA:**
+    - Realizat cu React.js.
+    - Include autentificare si rutare (accesul la date se face doar dupa login).
+
+  4. **Integrare API extern:**
+    - Functionalitate de traducere automata a citatelor (engleza -> romana).
+
 ## Ghid de instalare si rulare
 
 Pasii necesari pentru clonarea si pornirea proiectului local:
