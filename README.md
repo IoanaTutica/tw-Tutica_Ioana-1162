@@ -11,7 +11,7 @@ Pasii necesari pentru clonarea si pornirea proiectului local:
 Se deschide un terminal si se ruleaza comanda:
 git clone git@github.com:IoanaTutica/tw-Tutica_Ioana-1162.git
 
-### 1. Backend (Server)
+### 2. Backend (Server)
 - In folderul `backend` se ruleaza comanda de instalare:
   npm install
 - Pornire server:
@@ -19,7 +19,7 @@ git clone git@github.com:IoanaTutica/tw-Tutica_Ioana-1162.git
 
 (Serverul va rula pe portul 8080 si va genera automat baza de date)
 
-### 2. Frontend (Client)
+### 3. Frontend (Client)
 - In folderul `frontend` (intr-un terminal nou) se ruleaza comanda:
   npm install
 - Pornire aplicatie:
